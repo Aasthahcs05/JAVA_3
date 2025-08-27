@@ -11,11 +11,13 @@ public class Calculator {
         {
             z=x/y;
         }
-        catch(ArithmeticException e)
+        //try can have multiple catch but from least specific to most specific
+
+      catch(Exception e)
         {
             System.out.println(e.getMessage());
         }
-        finally
+        finally //finally always executes even if there is an exception
         {
             System.out.println(z);
         }
