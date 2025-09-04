@@ -11,8 +11,8 @@ public class ArrayList3 {
         for(int i=0; i<n; i++) {
             products.add(sc.next());
         }
-        Iterator itr = products.iterator();
-        while(itr.hasNext()) {
+        Iterator itr = products.iterator();//for traversing and getting the iterator
+        while(itr.hasNext()) {//check if iterator has elements
             System.out.println(itr.next());
         }
         products.addLast("Lichi");
