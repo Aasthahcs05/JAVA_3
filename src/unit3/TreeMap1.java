@@ -15,7 +15,7 @@ public class TreeMap1 {
         }
         for(Map.Entry m: tm.entrySet())
         {
-            System.out.println(m.getKey()+" "+m.getValue());
+            System.out.println(m.getKey()+" "+m.getValue()+" ");
         }
     }
 }
